@@ -1,0 +1,111 @@
+* {
+    max-width: 750px;
+    margin: auto;
+  }
+  
+  
+  /*body {
+      min-width: 500px;
+  }*/
+  
+  div {
+    border-radius: px;
+  }
+  
+  #header {
+    height: 40px;
+    width: 100%;
+    background-color: 	#ff8c00;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  hr {
+     width: 115%;
+     height: 1px;
+     border: 0 none;
+     margin-right: 0.1px;
+     margin-left: 0.1px;
+     margin-top: px;
+     margin-bottom:px;
+     background-color:#555;
+  }
+  
+  #src {float right;}
+  
+  #footer {
+    height: 75px;
+    width: 100%;
+    background-color: 	#ff8c00;
+    clear: both;
+    position: relative;
+  }
+  
+  .left {
+    height: 1000px;
+    width: 45px;
+    background-color: #778899;
+    float: left;
+    position: fixed;
+  }
+  
+  .striped-border { border: 1px dashed #000; width: 50%; margin: auto; margin-top: 5%; margin-bottom: 5%; }
+  .right {
+    height: 1000px;
+    width: 50px;
+    background-color: #778899;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 75%;
+    height: 10px;
+  }
+  
+  p,
+  li {
+    font-family: 'Cormorant Garamond';
+  }
+  
+  .head {
+    font-size: 20px;
+  }
+  
+  #name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .left,                
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
+  .counter{
+    font-size: 14px;
+    color: #545454;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    padding-bottom: 3em
+  }
